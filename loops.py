@@ -5,9 +5,18 @@ def loop():
   #     print(f"this {name} starts with j")
   #   print(f"hello {name}")
   dic = {"key1": "a", "key2":"b", "key3": "c"}
+#.items() gives back the items
+  # for item in dic.items():
+  #   print(item)
+  for a,b in dic.items():
+    print(a,b)
 
-  for item in dic:
-    print(item)
+    #while loops
+    coins = 30
+    while coins < 40:
+      print(f"Ijave {coins} coins")
+      coins += 1
+    
   #a = 1
   # while a < 10 :
   #   print (a)
